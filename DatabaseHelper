@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+//creating database
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "staff_attendance.db";
     public static final String TABLE_NAME = "staff_table";
